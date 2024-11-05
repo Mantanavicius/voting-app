@@ -1,0 +1,29 @@
+.OptionInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  max-width: 540px;
+  height: 40px;
+  margin-top: 1rem;
+
+  input {
+    max-width: 400px;
+    height: 100%;
+    border-radius: 0.5rem 0 0 0.5rem;
+    outline: none;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+  }
+
+  button {
+    height: 100%;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,19 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dbdbdb;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 2rem;
+}
+
+.VotingPrompt{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
